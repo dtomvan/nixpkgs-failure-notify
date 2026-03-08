@@ -66,7 +66,7 @@ def main():
     for job in failures:
         packed[job.name][job.system] = job.id
 
-    write_csv("4-failures-packed", "id,name" + ','.join(SUPPORTED_SYSTEMS),
+    write_csv("4-failures-packed", "id,name," + ','.join(SUPPORTED_SYSTEMS),
         ((pkg, *failures.values()) for pkg, failures in packed.items()))
 
 
