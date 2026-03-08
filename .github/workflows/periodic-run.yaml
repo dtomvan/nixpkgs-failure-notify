@@ -3,15 +3,12 @@ name: Collect Hydra Results
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "3 14 * * *"
 
 env:
-  GH_PUB_KEY:
-    github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
-  GH_BOT_ACC_EMAIL:
-    41898282+github-actions[bot]@users.noreply.github.com
-  GH_BOT_ACC_NAME:
-    github-actions[bot]
+  GH_PUB_KEY: github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
+  GH_BOT_ACC_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+  GH_BOT_ACC_NAME: github-actions[bot]
 
 jobs:
   collect:
