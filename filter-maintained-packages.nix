@@ -13,7 +13,7 @@ let
     (builtins.map (pkgs.lib.strings.splitString ","))
   ];
 
-  gh = "Sigmanificient";
+  gh = "dtomvan";
 in let
   lookupAttrPath = pathStr:
     builtins.foldl'

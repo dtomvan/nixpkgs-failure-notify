@@ -5,7 +5,7 @@ set -euo pipefail
 
 [[ ! -s result.html ]] && \
   curl -L \
-   -A "nixpkgs-failure-notify (reach sigmanificient)" \
+   -A "nixpkgs-failure-notify (reach dtomvan)" \
    -o result.html \
    https://hydra.nixos.org/jobset/nixpkgs/trunk/latest-eval?full=1
 

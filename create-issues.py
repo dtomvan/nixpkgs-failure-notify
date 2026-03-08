@@ -39,8 +39,7 @@ for row in rows:
         continue
 
     body = (
-        "@Sigmanificient\n\n"
-        + f"Build failures for `{pkg}`:\n\n"
+        f"Build failures for `{pkg}`:\n\n"
         + "\n".join(failures)
     )
 
@@ -51,6 +50,7 @@ for row in rows:
         "gh", "issue", "create",
         "--repo", repo,
         "--title", title,
-        "--body", body
+        "--body", body,
+        "--assignee", "dtomvan"
         ], check=True, env={"GITHUB_TOKEN": gh_token}
     )
