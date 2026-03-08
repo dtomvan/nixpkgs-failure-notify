@@ -60,26 +60,13 @@ def main():
         if job.system in SUPPORTED_SYSTEMS
     ]
 
-    write_csv("1-post-cleanup", "id,status,name,system",
-        ((j.id, j.status, j.name, j.system) for j in all_jobs))
-
     failures = [job for job in all_jobs if job.status == 'F']
-
-    write_csv("2-failures", "id,name,system",
-        ((j.id, j.name, j.system) for j in failures))
-
-    per_systems = defaultdict(list)
     packed = defaultdict(lambda: { k: '' for k in SUPPORTED_SYSTEMS })
 
-    for c, job in enumerate(failures):
-        per_systems[job.system].append(c)
+    for job in failures:
         packed[job.name][job.system] = job.id
 
-    for system, jobs in per_systems.items():
-        write_csv(f"3-failures-{system}", "id,name",
-            ((all_jobs[ji].id, all_jobs[ji].name) for ji in jobs))
-
-    write_csv(f"4-failures-packed", "id,name" + ','.join(SUPPORTED_SYSTEMS),
+    write_csv("4-failures-packed", "id,name" + ','.join(SUPPORTED_SYSTEMS),
         ((pkg, *failures.values()) for pkg, failures in packed.items()))
 
 
