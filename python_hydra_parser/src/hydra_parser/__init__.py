@@ -11,6 +11,7 @@ SUPPORTED_SYSTEMS = tuple(
     f"{arch}-{sys}"
     for sys in ("linux", "darwin")
     for arch in ("x86_64", "aarch64")
+    if not (sys == "darwin" and arch == "x86_64")
 )
 
 
