@@ -76,6 +76,7 @@
           gcc
           python3
           jq
+          gnugrep
           self.packages.${system}.fast-hydra-parser
           self.packages.${system}.hydra-parser
         ];
