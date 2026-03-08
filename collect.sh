@@ -1,5 +1,5 @@
 #! /usr/bin/env nix-shell
-#! nix-shell -i bash -p curl gcc python3 jq
+#! nix-shell -i bash -p curl gcc python3 jq gnugrep
 
 set -euo pipefail
 
