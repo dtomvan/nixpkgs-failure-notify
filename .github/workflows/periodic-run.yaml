@@ -29,6 +29,7 @@ jobs:
         with:
           key: ${{ secrets.GH_SSH_PRIVATE_KEY }}
           known_hosts: $GH_PUB_KEY
+          name: id_ed25519
 
       - name: setup git
         run: |
