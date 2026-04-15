@@ -14,6 +14,7 @@ let
   ];
 
   gh = "dtomvan";
+  extraPackages = import ./extra-packages.nix;
 in
 let
   lookupAttrPath =
@@ -47,5 +48,17 @@ let
     in
     evald.success && evald.value;
 
+  isExtraPkg =
+    p:
+    let
+      evald = builtins.tryEval (
+        pkgs.lib.pipe p [
+          builtins.head
+          lookupAttrPath
+          (p: pkgs.lib.any (extra: (p.pname or "") == extra) extraPackages)
+        ]
+      );
+    in
+    evald.success && evald.value;
 in
-builtins.filter isMaintainer failures-packed
+builtins.filter (p: isMaintainer p || isExtraPkg p) failures-packed
