@@ -14,15 +14,20 @@ let
   ];
 
   gh = "dtomvan";
-in let
-  lookupAttrPath = pathStr:
-    builtins.foldl'
-    (acc: p:
-      if acc == null then null
-      else if builtins.hasAttr p acc then builtins.getAttr p acc
-      else null)
-    pkgs
-    (pkgs.lib.strings.splitString "." pathStr);
+  extraPackages = import ./extra-packages.nix;
+ in
+ let
+   lookupAttrPath =
+     pathStr:
+     builtins.foldl' (
+       acc: p:
+       if acc == null then
+         null
+       else if builtins.hasAttr p acc then
+         builtins.getAttr p acc
+       else
+         null
+     ) pkgs (pkgs.lib.strings.splitString "." pathStr);
 
   isPkgMaintainer = pkg: pkgs.lib.any (m: (m.github or "") == gh) pkg;
 
@@ -40,4 +45,17 @@ in let
 
     in evald.success && evald.value;
 
-in builtins.filter isMaintainer failures-packed
+  isExtraPkg =
+    p:
+    let
+      evald = builtins.tryEval (
+        pkgs.lib.pipe p [
+          builtins.head
+          lookupAttrPath
+          (p: pkgs.lib.any (extra: (p.pname or "") == extra) extraPackages)
+        ]
+      );
+    in
+    evald.success && evald.value;
+in
+builtins.filter (p: isMaintainer p || isExtraPkg p) failures-packed
