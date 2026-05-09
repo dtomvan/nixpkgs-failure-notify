@@ -5,6 +5,10 @@
       url = "github:hercules-ci/flake-parts";
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
+    treefmt-nix = {
+      url = "github:numtide/treefmt-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -14,6 +18,8 @@
         "x86_64-linux"
         "aarch64-linux"
       ];
+
+      imports = [ inputs.treefmt-nix.flakeModule ];
 
       perSystem =
         {
@@ -133,6 +139,15 @@
                 }
               ) { };
             };
+
+          treefmt.programs = {
+            deadnix.enable = true;
+            nixfmt.enable = true;
+            ruff.enable = true;
+            shellcheck.enable = true;
+            shfmt.enable = true;
+            statix.enable = true;
+          };
         };
     };
 }
