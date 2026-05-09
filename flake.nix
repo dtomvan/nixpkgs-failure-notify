@@ -99,8 +99,6 @@
                 runtimeInputs = builtins.attrValues {
                   inherit (pkgs)
                     curl
-                    gcc
-                    python3
                     jq
                     ;
                   inherit (self'.packages)
