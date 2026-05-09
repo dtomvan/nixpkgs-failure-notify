@@ -76,9 +76,7 @@ jobs:
 
       - name: Back prev results
         run: |
-          for branch in trunk staging-next; do
-            mv results/$branch/concerned-failures.json previous-$branch.json || echo [] > previous-$branch.json
-          done
+          mv results/concerned-failures.json previous.json
 
       - name: Run collect script
         run: |
@@ -91,7 +89,7 @@ jobs:
 
       - name: Cleanup
         run: |
-          rm previous-*.json
+          rm ./previous.json
 
       - name: Commit results
         run: |
