@@ -42,6 +42,11 @@
                 gh
                 ;
             };
+
+            shellHook = ''
+              export GH_TOKEN="$(gh auth token)"
+              export GH_REPOSITORY="$(gh repo set-default --view)"
+            '';
           };
 
           packages =
