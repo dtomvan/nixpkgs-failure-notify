@@ -11,8 +11,11 @@ def create_issues(branch="trunk"):
     with open(f"results/{branch}/concerned-failures.json") as f:
         rows = json.load(f)
 
-    with open(f"previous-{branch}.json") as f:
-        known_fails = [r[0] for r in json.load(f)]
+    try:
+        with open(f"previous-{branch}.json") as f:
+            known_fails = [r[0] for r in json.load(f)]
+    except Exception:
+        known_fails = []
 
 
     SUPPORTED_SYSTEMS = tuple(
