@@ -45,7 +45,7 @@ def create_issues(branch="trunk"):
             continue
 
         body = (
-            "@Sigmanificient\n\n"
+            "@dtomvan\n\n"
             + f"Build failures for `{pkg}`:\n\n"
             + "\n".join(failures)
         )
