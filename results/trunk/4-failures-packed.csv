@@ -113,7 +113,7 @@ factoriolab,,,331414193
 fbv,,,329275798
 fcron,,,329275907
 fedimint,329275958,329275956,
-filen-desktop,,,330645980
+filen-desktop,,,331535526
 fittrackee,331524317,331524316,
 fleng,,,329277034
 flex-launcher,,,329277048
@@ -157,7 +157,7 @@ grafana,,,331085468
 grafx2,,,330685361
 gram,,,330727274
 greenbone-feed-sync,,,329707517
-gridtracker2,,,330646064
+gridtracker2,,,331535596
 gtk-frdp,,,330706041
 guile-git,,,330727288
 gurk-rs,330625072,,
@@ -237,6 +237,7 @@ haskellPackages.xmonad-utils,,,329317317
 haskellPackages.zlib-bytes,,,329317825
 haskellPackages.zot,,,329317843
 hdate,,,329318064
+herbstluftwm,331531232,,
 hexagonrpc,,,329318387
 hgrep,,329318474,
 hime,330671994,330671993,
@@ -282,11 +283,10 @@ kermit,329326420,329326419,
 kgt,,,329326543
 kodiPackages.plex-for-kodi,,,329327063
 komodo,329327235,329327233,329327232
-koodo-reader,,,330646179
+koodo-reader,,,331536574
 kore,,,329327319
 kubectl-kcl,329327650,329327651,329327641
-kubernetes-helm,,,331454031
-kuro,,,330646180
+kuro,,,331536608
 ladybugdb,,,331499772
 landrun,,329328143,
 lanraragi,,,329713942
@@ -472,15 +472,16 @@ llvmPackages_22.compiler-rt-no-libc,,331085684,
 lnx,,330685569,
 loki,,,329338716
 lomiri-qt6.lomiri-thumbnailer,330731134,330731124,
-losslesscut,,,330685581
+losslesscut,,,331536690
 lttoolbox,,,329339155
+lua51Packages.neotest,331531377,,
 lua55Packages.lua-https,329342282,329342281,329342278
 maiko,,,329344797
 mame-tools,,,331391875
 mame,,,331391874
 maskromtool,,,329345478
 mathemagix,329345634,,
-mattermost-desktop,,,330646239
+mattermost-desktop,,,331536748
 mayo,,,329345855
 mediagoblin,,,331510734
 mediasynclite,,,329346365
@@ -522,7 +523,7 @@ nanobench,,,331088973
 nbd,,,329349923
 netfoil,,,331531597
 netperf,,,329350764
-netron,,,330646291
+netron,,,331536784
 neverest,329350866,329350864,329350863
 newlib-nano,,329350888,329350884
 newlib,,329350881,329350880
@@ -569,8 +570,8 @@ onednn_2,,329364923,
 open-policy-agent,,,329365116
 open5gs-webui,,,329365139
 openbabel,,329365203,
-opencloud-desktop-shell-integration-resources,,,329365293
-opencloud-desktop,,,329365284
+opencloud-desktop-shell-integration-resources,,,331536929
+opencloud-desktop,,,331536925
 opencomposite,,,331392156
 opengothic,,329365428,
 openpa,,,329365699
@@ -583,7 +584,7 @@ opn2bankeditor,,,329366203
 osmctools,,,329366430
 osrm-backend,,,330685887
 outguess,,,329366610
-owncloud-client,,,329366687
+owncloud-client,,,331536942
 oxker,,,329366727
 p4c,329366754,329366755,
 packcc,,,329366822
@@ -592,6 +593,7 @@ pam_xdg,,329366981,329366978
 pandora-launcher-unwrapped,,,329755075
 papra,,,331511078
 partclone-utils,,,329367593
+passExtensions.pass-audit,,331531656,
 pawn-appetit,,,331511100
 paxtest,329367842,329367843,
 pcem,,331042097,
@@ -616,7 +618,7 @@ pkgsRocm.migrate,331086053,,
 pkgsRocm.opensplat,331392235,,
 pkgsRocm.python3Packages.cross-web,331525573,,
 pkgsRocm.python3Packages.deepwave,331086155,,
-pkgsRocm.python3Packages.executorch,331523160,,
+pkgsRocm.python3Packages.executorch,331537000,,
 pkgsRocm.python3Packages.gpuctypes,331086196,,
 pkgsRocm.python3Packages.syne-tune,331086412,,
 pkgsRocm.python3Packages.tables,331086413,,
@@ -741,7 +743,7 @@ python313Packages.spectral-cube,,,331531851
 python313Packages.sunpy,330775392,330775374,330775389
 python313Packages.syne-tune,,,330911806
 python313Packages.torchao,,,331411526
-python313Packages.torchmd-net,,,331512654
+python313Packages.torchmd-net,,,331537239
 python313Packages.torchsnapshot,,330911953,
 python313Packages.unearth,329430287,329430292,329430289
 python313Packages.usearch,,331504358,
@@ -868,7 +870,7 @@ python314Packages.slack-sdk,,,331513770
 python314Packages.solidpython2,,,330334512
 python314Packages.sqlalchemy_1_3,329464820,329464817,329464818
 python314Packages.swh-export,331526152,331526127,331526146
-python314Packages.torchmd-net,,,331513806
+python314Packages.torchmd-net,,,331537383
 python314Packages.torchsnapshot,,330913009,
 python314Packages.unearth,329468735,329468737,329468734
 python314Packages.usearch,,331504585,
@@ -953,6 +955,7 @@ snouty,,331504695,
 snpeff,,,329486895
 sofa,,,330917798
 solana-cli,329487069,,
+spacedrive,331532053,,
 spades,,,329487391
 spglib,,,329487584
 spnavcfg,,,329487761
@@ -962,7 +965,7 @@ steghide,,,329488692
 stellar-core,330681720,330681717,
 stog,,,330600859
 stoolap,,329488829,
-super-productivity,,,330648103
+super-productivity,,,331537575
 superfile,,330775696,
 surge,329489339,,
 sweethome3d.application,,,329489625
@@ -1009,7 +1012,7 @@ tsduck,,,331385876
 tuir,,,330673865
 tuxclocker-plugins,329501605,329501604,
 tuxedo,,,330757273
-twinejs,,,330648197
+twinejs,,,331537715
 ucode,,,329522709
 ulfius,,,330631449
 unblob,331514491,331514488,
@@ -1034,7 +1037,7 @@ versatiles,,,331514520
 vesta,,,329524511
 vgm2x,,,329524528
 vice,330918073,330918072,
-vikunja-desktop,,,331514541
+vikunja-desktop,,,331537741
 vixl,,,329526574
 vodozemac-bindings-cpp,,,329526687
 vorbisgain,,,329526741
