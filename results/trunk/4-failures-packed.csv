@@ -199,7 +199,6 @@ ghostfolio,,,334072599
 gildas,,,332947658
 gimme-aws-creds,332947669,332947665,332947668
 git-absorb,,,332947782
-git-annex-remote-googledrive,,,332947800
 git-branchless,,,332947837
 git-bug,,,332947845
 git-chain,,,332947861
@@ -345,11 +344,9 @@ inspircd,,,332990293
 intel-graphics-compiler,,332990337,
 intelli-shell,,,332990352
 intensity-normalization,332990373,332990362,332990361
-inventree,333618471,333618472,
+inventree,334074925,334074929,
 ioping,,,332990490
 iosevka,,,333511090
-iroh-dns-server,,,332990860
-iroh-relay,,,332990865
 iroh-ssh,,,332990873
 ispc,332990972,332990971,
 ivette,,,333649167
@@ -694,7 +691,6 @@ multipart-parser-c,,,333017432
 murex,,,333017528
 musescore-evolution,,,334068317
 musescore,,,333017561
-music-assistant-desktop,333618672,,
 mystmd,,,333017803
 nagiosPlugins.check_interfaces,333017866,333017864,333017860
 naja,,,333017925
@@ -764,8 +760,9 @@ opencomposite,,,333033682
 opencpn,,,333033706
 opengothic,,333033803,
 openpa,,,333034079
-openroad,334072706,,
+openroad,334072706,334072707,
 openrussian-cli,333034194,333034190,333034186
+opensplatWithRocm,334075065,,
 openssh-askpass,,,333034323
 openstack-rs,,,333034377
 opentelemetry-collector-contrib,333618872,,
@@ -807,16 +804,19 @@ pidginPackages.purple-plugin-pack,333054807,333054804,
 pike,,333054866,
 piped,,,333456286
 pkgit,,,333618939
-pkgsRocm.babeldoc,334068432,,
-pkgsRocm.migrate,333456404,,
-pkgsRocm.python3Packages.ax-platform,334068447,,
+pkgsRocm.migrate,334075180,,
+pkgsRocm.opensplat,334075209,,
+pkgsRocm.python3Packages.ax-platform,334075292,,
+pkgsRocm.python3Packages.deepwave,334075283,,
 pkgsRocm.python3Packages.elastic-apm,333055474,,
-pkgsRocm.python3Packages.executorch,333652332,,
+pkgsRocm.python3Packages.executorch,334075350,,
 pkgsRocm.python3Packages.functions-framework,333055493,,
-pkgsRocm.python3Packages.gpuctypes,333456558,,
-pkgsRocm.python3Packages.gradio,334068503,,
-pkgsRocm.tabby,334072739,,
-pkgsRocm.whisper-cpp-vulkan,333456874,,
+pkgsRocm.python3Packages.gpuctypes,334075321,,
+pkgsRocm.python3Packages.gradio,334075347,,
+pkgsRocm.python3Packages.tinygrad,334075538,,
+pkgsRocm.python3Packages.vmas,334075584,,
+pkgsRocm.tabby,334075616,,
+pkgsRocm.whisper-cpp-vulkan,334075658,,
 plzip,,,333056168
 pmars-x11,,,333056181
 pnetcdf,,,333056234
@@ -884,7 +884,6 @@ python313Packages.canopen,,,333064925
 python313Packages.capa,,,333220570
 python313Packages.casadi,333451988,,
 python313Packages.cdxj-indexer,,,333065076
-python313Packages.celery,,333065082,
 python313Packages.cert-chain-resolver,333065112,333065110,333065109
 python313Packages.control,,,333066279
 python313Packages.copier,,,333066317
@@ -951,7 +950,6 @@ python313Packages.opentelemetry-instrumentation-botocore,333081913,333081912,333
 python313Packages.opentelemetry-instrumentation-system-metrics,,,333081969
 python313Packages.opytimark,333082110,,
 python313Packages.paddlepaddle,,333082416,
-python313Packages.pgmpy,333083102,,
 python313Packages.pmdarima,,,333083628
 python313Packages.prometheus-fastapi-instrumentator,333084034,333084037,333084029
 python313Packages.proton-core,,,333084115
@@ -967,7 +965,6 @@ python313Packages.pyitachip2ir,,,333086181
 python313Packages.pykdtree,,333086250,
 python313Packages.pylance,,,333086335
 python313Packages.pylibjpeg-rle,,,333086402
-python313Packages.pylint-django,,,333086444
 python313Packages.pylsl,,,333086495
 python313Packages.pylsp-mypy,,,333086518
 python313Packages.pylutron-caseta,,,333086513
@@ -1004,7 +1001,6 @@ python313Packages.spectral-cube,,,334069284
 python313Packages.synthetic-home,,,333094903
 python313Packages.thefuzz,,,333221374
 python313Packages.torchmd-net,,,333095959
-python313Packages.torchsnapshot,,333095931,
 python313Packages.tree-sitter-grammars.tree-sitter-sourcepawn,333458133,,
 python313Packages.tree-sitter-grammars.tree-sitter-spade,333458149,,
 python313Packages.tree-sitter-grammars.tree-sitter-svelte,333458141,,
@@ -1035,7 +1031,6 @@ python314Packages.btrsync,333105803,333105799,
 python314Packages.canopen,,,333106017
 python314Packages.capa,,,333221678
 python314Packages.casadi,333452264,,
-python314Packages.celery,333106213,333106176,
 python314Packages.cert-chain-resolver,333106202,333106200,333106199
 python314Packages.class-doc,333106524,333106521,333106522
 python314Packages.compressed-tensors,,,333107132
@@ -1102,7 +1097,6 @@ python314Packages.opentelemetry-instrumentation-system-metrics,,,333122682
 python314Packages.opentelemetry-instrumentation-urllib3,333122691,333122692,333122690
 python314Packages.opytimark,333122818,,
 python314Packages.overpy,,,333123055
-python314Packages.pgmpy,333123786,,
 python314Packages.plum-py,333124278,333124273,333124275
 python314Packages.prometheus-fastapi-instrumentator,333124724,333124718,333124715
 python314Packages.proton-core,,,333124799
@@ -1155,7 +1149,6 @@ python314Packages.thinc,,,333135929
 python314Packages.tinytuya,,,333136132
 python314Packages.torchWithVulkan,,,333136329
 python314Packages.torchmd-net,,,333136409
-python314Packages.torchsnapshot,,333136381,
 python314Packages.uproot,,,333138713
 python314Packages.vowpalwabbit,,,333139173
 python314Packages.weasyprint,,,333139400
@@ -1215,7 +1208,6 @@ rsop,,,333144769
 rucola,333152372,,
 rvvm,,,333152106
 s3fs,,,333152244
-sagittarius-scheme,333152384,333152382,
 sail-riscv,,,333653211
 samba4Full,,,333152449
 sambaFull,,,333152451
@@ -1355,7 +1347,7 @@ vodozemac-bindings-cpp,,,333196793
 vorbisgain,,,333196845
 vtk_9_6,333653555,333653550,
 wallutils,333199114,333199119,
-wapiti,,,333199290
+wapiti,,,334076759
 wasm-tools,,,333199254
 waylock,,333199450,
 webdev,333199838,333200098,
