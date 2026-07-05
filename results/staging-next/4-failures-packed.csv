@@ -130,7 +130,6 @@ fundoc,,,333467542
 fw,,,333467550
 g15daemon,,,333246085
 g3proxy,,,333467556
-gawkextlib.select,,,333246397
 gccNGPackages_15.gcc-unwrapped,,,333246485
 gccNGPackages_15.libquadmath,333246553,,
 gdal,333625010,,
@@ -365,7 +364,7 @@ moonfire-nvr,,,333481036
 moosefs,,,333301872
 moshi,333302020,,333481101
 mosml,,,333302014
-mouseless,333302057,333302079,
+mouseless,,333302079,
 mpich-pmix,,,333302225
 mpich,,,333302207
 mrpack-install,,,333302490
@@ -674,7 +673,6 @@ python313Packages.pyramid-multiauth,,,333489966
 python313Packages.pysmart,,,333356691
 python313Packages.pysmbc,,,333356734
 python313Packages.pysptk,,,333593677
-python313Packages.pystatgrab,,,333356849
 python313Packages.pytest-harvest,,,333531809
 python313Packages.python-fontconfig,,,333593797
 python313Packages.python-velbus,333358040,333358064,333358057
@@ -1057,7 +1055,6 @@ sweethome3d.application,,,333413249
 swiftPackages.swift-unwrapped,333413309,,333505895
 swiftshader,333413353,,
 syzkaller,,,333413608
-t3,333413634,,
 talkfilters,,,333413795
 task-master-ai,,,333506019
 tcl8Packages.tk,,,333605740
@@ -1163,4 +1160,3 @@ zee,,,333508653
 zf,,,333447787
 zfp,333447791,,
 zigfetch,,,333447912
-zipperposition,333447943,,
