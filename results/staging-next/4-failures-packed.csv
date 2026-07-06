@@ -690,7 +690,6 @@ python313Packages.roman,333359466,333359464,333359462
 python313Packages.rpy2-rinterface,333359629,333359588,
 python313Packages.rtfde,,333532742,
 python313Packages.rubicon-objc,,,333359626
-python313Packages.scantree,,,333359835
 python313Packages.schema-salad,333632529,333632527,
 python313Packages.scikit-rf,333594303,,
 python313Packages.setuptools-odoo,,,333490960
@@ -811,7 +810,6 @@ python314Packages.flickrapi,,,333540964
 python314Packages.flufl-bounce,333375121,333375120,333375190
 python314Packages.frictionless,333636425,,
 python314Packages.fritzconnection,,,333495352
-python314Packages.func-timeout,,,333375330
 python314Packages.gdal,333636445,,
 python314Packages.genome-collector,333541136,333541135,
 python314Packages.genshi,333375513,333375512,333375510
@@ -998,7 +996,6 @@ remarkable2-toolchain,333400318,,
 replibyte,,,333502968
 resticprofile,,,333400512
 rethinkdb,,,333400527
-reticulum-group-chat,333502980,,
 ristate,,,333503030
 river-classic,,333503040,
 river-filtile,,,333503036
@@ -1093,7 +1090,7 @@ tk-9_0,,,333608306
 tk,,,333608287
 tlsrpt-reporter,333421107,,333506997
 toastify,,,333507029
-tootik,333421527,333421530,
+tootik,,333421530,
 topgrade,,,333507050
 tpm2-totp,,,333507105
 tpnote,,,333507087
