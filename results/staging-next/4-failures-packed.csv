@@ -376,7 +376,6 @@ mucommander,,,333586827
 multipart-parser-c,,,333302714
 muonStandalone,,,333302778
 mydumper,,,333586820
-mygpoclient,,333302934,
 mystmd,,,333481253
 nagiosPlugins.check_interfaces,333303065,333303062,333303068
 naja,,,333481275
@@ -851,7 +850,6 @@ python314Packages.monosat,,,333380805
 python314Packages.morfessor,,333380843,333380839
 python314Packages.mrsqm,,,333600457
 python314Packages.mwclient,,333543755,333543753
-python314Packages.mygpoclient,,333381137,
 python314Packages.mypyllant,,333543792,
 python314Packages.nats-python,,,333382313
 python314Packages.nfcpy,,,333382597
@@ -928,7 +926,6 @@ python314Packages.rpy2-rinterface,333390739,333390746,
 python314Packages.rtfde,,333547356,
 python314Packages.rtoml,,333547362,
 python314Packages.rubicon-objc,,,333390814
-python314Packages.scantree,,,333391021
 python314Packages.schema-salad,333638366,333638368,
 python314Packages.serialx,,,333499836
 python314Packages.setuptools-odoo,,,333499851
