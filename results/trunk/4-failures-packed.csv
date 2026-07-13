@@ -66,6 +66,7 @@ blueutil,,,336877165
 bootil,,,336877395
 boulder,,,336877471
 box2d_2,,,336877483
+bozohttpd,,337390433,
 brlcad,336877648,,
 bsnes-hd,,,336877745
 btrsync,336877817,336877816,
@@ -83,11 +84,9 @@ cargo-risczero,,,336878854
 cargo-ui,,,336878931
 cargo-watch,,,336878947
 casacore,,,336879007
-castero,,337297863,
 cbconvert-gui,336879186,336879181,
 cbconvert,336879185,336879184,
 cbmbasic,,,336879199
-cc-switch,337378382,,
 ccextractor,336879295,336879303,336879301
 cdecl,,,336879323
 cemu-ti,,,336879427
@@ -144,7 +143,6 @@ ddnet,,,336885259
 deadpixi-sam-unstable,,,336885304
 deeptools,336885489,336885389,336885387
 delly,,,336885430
-deltachat-tauri,337378434,,
 deluged,,,336885466
 deskew,,,336885541
 devpod-desktop,,,336885624
@@ -164,7 +162,7 @@ dnadd,,,336886279
 dnsight,336886339,336886337,336886338
 dnslink-std-go,,,336886340
 dockapps.wmsm-app,,,336886491
-dorion,,,337095952
+dorion,,,337395977
 dosbox-x,,,336886723
 dovecot_pigeonhole,,,336887237
 dovecot_pigeonhole_2_4,,,336887248
@@ -231,7 +229,7 @@ gdlv,,,336892621
 gearboy,,,336892654
 getxbook,,,336892934
 ghidra-extensions.gnudisassembler,,,336893177
-ghostfolio,,,337378588
+ghostfolio,,,337396027
 ghostie,,,336893202
 gimme-aws-creds,336893331,336893329,336893330
 gimp2,,,336893340
@@ -460,6 +458,7 @@ lanraragi,,,336931403
 lcm,,,336931465
 lean,,,336931561
 lean3,,,336931563
+lemmy-ui,,,337390743
 leo-lang,,,336931743
 lerna_6,,336931772,
 lesscpy,336931786,336931785,336931784
@@ -775,7 +774,7 @@ micronucleus,,,336946687
 micropython,336946696,336946695,336946694
 migrate,336946729,336946728,
 minc_tools,336946784,336946785,
-minitube,337298062,337298061,
+minitube,337396202,337396201,
 minizinc-ide,,,336947031
 mistral-rs,336947113,,
 mjpegtoolsFull,,,336947161
@@ -794,7 +793,7 @@ mono6,,,336947595
 mono_repo,336947677,336947859,
 monotone,,,336947629
 moon,336947646,336947647,336947648
-moonfire-nvr,,,336947656
+moonfire-nvr,,,337396216
 moonlight-qt,,,336947661
 moosefs,,,336947671
 mopidy-bandcamp,336947693,336947691,
@@ -814,7 +813,7 @@ mopidy-spotify,336947732,336947742,
 mopidy-subidy,336947735,336947733,
 mopidy-tidal,336947745,336947743,
 mopidy-tunein,336947744,336947741,
-mopidy-youtube,337298076,337298073,
+mopidy-youtube,337396229,337396227,
 mopidy-ytmusic,336947758,336947763,
 mopidyPackages.mopidy-bandcamp,336947749,336947748,
 mopidyPackages.mopidy-iris,336947756,336947755,
@@ -833,12 +832,12 @@ mopidyPackages.mopidy-spotify,336947797,336947803,
 mopidyPackages.mopidy-subidy,336947802,336947804,
 mopidyPackages.mopidy-tidal,336947807,336947813,
 mopidyPackages.mopidy-tunein,336947800,336947799,
-mopidyPackages.mopidy-youtube,337298077,337298072,
+mopidyPackages.mopidy-youtube,337396230,337396228,
 mopidyPackages.mopidy-ytmusic,336947812,336947814,
 moshi,336947883,336947893,336947875
 mosml,,,336947869
 motoc,,,336947899
-motrix-next,,,336947921
+motrix-next,,,337396235
 mp3fs,,,336947979
 mpich-pmix,,,336948075
 mpich,,,336948069
@@ -953,7 +952,7 @@ paqet,,,336962769
 parquet-tools,336962858,336962859,336962864
 partclone-utils,,,336962881
 patool,336963053,336963051,
-pawn-appetit,,,336963067
+pawn-appetit,,,337396295
 paxtest,336963080,336963078,
 pcem,,337378951,
 pdal,336963193,336963190,
@@ -964,12 +963,13 @@ perlPackages.Gtk3ImageView,,,336971341
 photoview,336975208,336975211,
 phytool,,,336976993
 picat,,,336977012
-picoclaw,,,336977033
+picoclaw,,,337396312
 picocrypt-ng,,,336977042
 picocrypt,,,336977035
 picolibc,,,336977048
 pidginPackages.purple-plugin-pack,336977117,336977115,
 pike,,336977167,
+pimsync,,,337390934
 pixieditor,,,336977458
 pjsip,,,336977418
 pkgit,,,336977453
@@ -1782,7 +1782,7 @@ root,,,337048759
 rosie,,,337048801
 routersploit,337048874,337048873,337048869
 rp,,337048886,
-rquickshare,,,337048960
+rquickshare,,,337396644
 rsop,,,337296732
 rstudio-server,337298400,337298402,
 rstudio,337298404,337298401,
@@ -1811,13 +1811,14 @@ scummvm,,,337056638
 seagoat,337377860,337377857,
 selfci,,,337056843
 semgrep,,337056938,
-session-desktop,337057222,337057234,337057108
+session-desktop,337396656,337396661,337396666
 sfml,,,337057140
 sgfutils,,,337057179
 shader-slang,,,337295658
 shaperglot,337057274,337057282,337057273
 shpool,,,337057494
 sif,,,337057553
+sketchybar-app-font,,,337391698
 sketchybar,,,337057909
 skypilot,337058036,337058034,337058033
 slint-viewer,,,337377873
@@ -1841,7 +1842,7 @@ stash,,,337059807
 stats,,,337059833
 steghide,,,337059933
 stirling-pdf-desktop,,,337060803
-stoat-desktop,,,337296767
+stoat-desktop,,,337396706
 stog,,,337060056
 stoolap,,337060052,
 stp,337060083,337060084,337060082
@@ -1885,6 +1886,8 @@ tests.hardeningFlags-gcc.sfa3StdenvUnsuppDoesntUnsuppSfa1ExecTest,,,337063868
 tests.hardeningFlags-gcc.sfa3explicitDisabledDoesntDisableSfa1ExecTest,,,337063874
 tests.hardeningFlags-gcc.sfa3explicitEnabledProtectsDefLen1ExecTest,,,337063881
 tests.home-assistant-components.anthropic,,337391848,
+tests.home-assistant-components.assist_pipeline,,337391904,
+tests.home-assistant-components.google,,337392432,
 tests.testers.hasCmakeConfigModules.eigen-does-not-have-eigen,,,337067290
 tests.testers.runCommand.bork,337067484,337067482,337067481
 tests.texlive.binaries,337067553,337067567,337067576
@@ -1936,6 +1939,7 @@ vesta,,,337088041
 vgm2x,,,337088057
 vice,337372632,337372633,
 vimPlugins.avante-nvim,337088180,,
+vivaldi-ffmpeg-codecs,,337394080,
 vixl,,,337089614
 vodozemac-bindings-cpp,,,337089705
 vorbisgain,,,337089748
@@ -1960,7 +1964,7 @@ whitesur-gtk-theme,,,337092173
 wiiuse,,,337092215
 wireshark,,,337295732
 wownero,,,337092856
-wrangler,,,337092886
+wrangler,,,337396837
 wxc,,,337093011
 x11basic,337093060,337093059,
 xcbuild,337093251,337093245,
