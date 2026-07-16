@@ -693,7 +693,6 @@ llvmPackages_19.mlir,336939570,336939567,336939568
 llvmPackages_20.mlir,336939700,336939704,336939702
 llvmPackages_22.compiler-rt-no-libc,,336939910,
 loki,,,336940218
-lomiri.lomiri-indicator-network,337731376,337731387,
 losslesscut,,,336940432
 lttng-tools,336940607,336940606,
 lttoolbox,,,336940605
