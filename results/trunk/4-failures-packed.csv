@@ -35,7 +35,6 @@ azure-cli-extensions.stack-hci-vm,347087545,347087543,347087539
 azure-cli-extensions.webpubsub,347087615,347087613,347087611
 azure-sdk-for-cpp.core-amqp,347087636,347087637,
 azure-sdk-for-cpp.security-attestation,347087670,347087669,
-badness,,347087809,
 barman,,,347916599
 barracuda,347087923,,
 beadwork,,347088201,
@@ -61,7 +60,7 @@ cataclysm-dda,347091375,347091377,
 cbmbasic,,,347091521
 cdogs-sdl,347091709,347091700,
 cernlib,347091784,347091783,
-chatty,347885340,347885341,
+chatty,348482390,348482392,
 chickenPackages_5.chickenEggs.fusion-arrays,,,347092665
 chickenPackages_5.chickenEggs.hypergiant,,,347092809
 chickenPackages_5.chickenEggs.libyaml,,347092892,347092895
@@ -140,6 +139,7 @@ flex-launcher,,,347104276
 flexget,,,347912669
 flightcore,,,347104295
 fluux-messenger,,348457957,
+folia-major,,,348457960
 folly,,348449105,
 ford,,,347104841
 fortitude,,,347104894
@@ -808,9 +808,11 @@ picolibc,,,347192152
 pidginPackages.purple-plugin-pack,347192219,347192218,
 pihole-ftl,347192251,347192250,
 pimsync,,,347914081
+pinnacle,348458543,,
 pint,,,347192366
 piper-phonemize,348458545,347791557,
 pkgit,,,347192567
+pkgsRocm.calibre-no-speech,348458552,,
 pkgsRocm.ieda,348458594,,
 pkgsRocm.migrate,347835781,,
 pkgsRocm.pdi,347835776,,
@@ -826,11 +828,13 @@ pkgsRocm.python3Packages.hoomd-blue,347835884,,
 pkgsRocm.python3Packages.ignite,347888633,,
 pkgsRocm.python3Packages.imagededup,347888648,,
 pkgsRocm.python3Packages.mdtraj,347888696,,
+pkgsRocm.python3Packages.onnxscript,348458669,,
 pkgsRocm.python3Packages.openmm-torch,347888720,,
 pkgsRocm.python3Packages.petsc4py,347836005,,
 pkgsRocm.python3Packages.pyg-lib,347888800,,
 pkgsRocm.python3Packages.pytorch-pfn-extras,348458685,,
 pkgsRocm.python3Packages.stytra,347888801,,
+pkgsRocm.python3Packages.tinygrad,348458710,,
 pkgsRocm.spfft,348098225,,
 pkgsRocm.vtk_9_6,348458749,,
 pktgen,347193224,347193223,
@@ -990,6 +994,7 @@ python313Packages.kopf,347210057,347210052,
 python313Packages.kotsu,347210066,,347210064
 python313Packages.kuzu,347210094,347210093,
 python313Packages.lancedb,,,347210130
+python313Packages.langchain-huggingface,,,348458987
 python313Packages.langgraph,,348101198,
 python313Packages.latexify-py,347210283,347210284,347210282
 python313Packages.libbs,347210472,347210452,347210451
@@ -1012,6 +1017,7 @@ python313Packages.nanomsg-python,347213831,347213830,347213829
 python313Packages.niaarm,347214113,,347214125
 python313Packages.noaa-coops,347214239,347214236,347214235
 python313Packages.nuclear,347214368,347214367,347214366
+python313Packages.onnxscript,348459084,,348459081
 python313Packages.openai-agents,347889112,347889110,347889111
 python313Packages.openbabel,,347214791,
 python313Packages.opencensus-ext-azure,347214807,347214809,347214808
@@ -1288,6 +1294,7 @@ python314Packages.neoteroi-mkdocs,,347247399,
 python314Packages.niaarm,347247532,,347247530
 python314Packages.noaa-coops,347247672,347247656,347247658
 python314Packages.nuclear,347247790,347247788,347247789
+python314Packages.onnxscript,348459540,,348459538
 python314Packages.openai-agents,347890355,347890358,347890357
 python314Packages.openbabel,,347248204,
 python314Packages.opencensus-ext-azure,347248227,347248225,347248228
@@ -1453,7 +1460,6 @@ reaper-sws-extension,348174288,348174293,347265530
 recode,,,347265569
 redo-apenwarr,,,347265663
 reindeer,,,347794798
-release-checks,348459759,,
 remarkable-toolchain,347265826,,
 remarkable2-toolchain,347265828,,
 renpy,,,347817143
