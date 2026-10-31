@@ -45,6 +45,8 @@ beanhub-cli,350180930,350180905,350180922
 beanstalkd,,,349418251
 bender,350180970,350180960,
 bicep,,,351364632
+bitwarden-cli,,,351562980
+bitwarden-desktop,,351562973,
 bngblaster,,350181411,
 bochs,,,350181436
 boulder,,,350181552
@@ -89,6 +91,7 @@ cxxtools,349427399,349427398,
 dart_frog_cli,350185421,350185417,
 dasher,,,350466915
 dbqn-native,350185526,,
+deepsource,,351563113,
 deeptools,,,351563101
 diffpdf,,,350186057
 digibyte,350186075,350186083,
@@ -139,7 +142,7 @@ flamerobin,350189372,350189379,
 flann,350711565,350711564,
 flet-client-flutter,,,351563222
 flex-launcher,,,350189461
-flexget,,,351563218
+flexget,,,351588236
 flightcore,,,350802029
 fluux-messenger,,350802033,
 folia-major,,,350329786
@@ -306,6 +309,7 @@ ios-webkit-debug-proxy,349470651,349470655,
 irods,349470861,349470860,
 irrd,350222217,350222214,
 isabelle,351365488,,
+jadx,,,351563456
 jarl,,,350337776
 jaspr_cli,350222390,350222387,
 jasterix,,,349471200
@@ -328,7 +332,7 @@ julia_111,,,350223028
 julia_112-bin,350459961,350459957,
 julia_113-bin,,,350459951
 julia_113,,350223018,350223017
-kara,350954495,350954342,
+kara,351588305,351588307,
 kdePackages.kdsoap,,,350223705
 kdePackages.mlt,,,350224164
 keeperrl,350224553,,
@@ -665,7 +669,7 @@ mev-boost,350233192,,
 micropython,349489997,349489996,349489995
 migrate,350233248,350233255,
 miniserve,,350898194,
-minitube,351524467,351524466,
+minitube,351588543,351588542,
 mlt,,,350233557
 mlton20130715,349490585,,
 mobsql,,,350233652
@@ -707,6 +711,7 @@ nix-serve-ng,,350469108,350469098
 nixel,,,350235521
 nixops_unstablePlugins.nixops-vbox,350235565,350235555,350235556
 nixops_unstablePlugins.nixopsvbox,350235566,350235562,350235558
+nixseparatedebuginfod2,,351563754,
 nmstate,,,350235673
 notmuch-mailmover,,,350235875
 ns-3,350798323,,
@@ -741,6 +746,7 @@ ocelot,350237032,350237034,
 ocrs,350237037,,
 octavePackages.ocl,,,350237210
 oidc-agent,350237336,350237363,
+omp,,,351563779
 onednn_2,,349504301,
 open5gs-webui,,,350237572
 openarc,,,349504533
@@ -975,6 +981,7 @@ python313Packages.i-pi,350252209,350252208,
 python313Packages.i3ipc,,,351526806
 python313Packages.ignite,350461585,350461591,350461590
 python313Packages.imagecorruptions,351564224,,351564223
+python313Packages.imageio,,351564210,
 python313Packages.imantics,350252343,350252399,350252349
 python313Packages.imbalanced-learn,350252390,,350252353
 python313Packages.invocations,350252463,350252495,350252480
@@ -1005,16 +1012,18 @@ python313Packages.mlt,,,350254677
 python313Packages.mmcv,351564484,,351564494
 python313Packages.modal,350469638,,
 python313Packages.motmetrics,350254801,350254800,350254865
-python313Packages.mpv,,,351524914
+python313Packages.mpv,,,351588694
 python313Packages.mrsqm,350254895,,350254945
 python313Packages.mss,,350898801,
 python313Packages.nanomsg-python,349542891,349542890,349542889
 python313Packages.nats-py,,351564508,
 python313Packages.nexusformat,350256280,350256333,350256279
 python313Packages.nglview,351245123,351245124,351245122
+python313Packages.niaarm,,,351564511
 python313Packages.nuclear,350256498,350256544,350256558
 python313Packages.numba-scipy,350256561,350256508,350256507
 python313Packages.numpy-typing-compat,350256548,350256551,350256553
+python313Packages.ome-zarr,,,351564534
 python313Packages.openai-agents,351366320,351366309,351366307
 python313Packages.openbabel,,350256897,
 python313Packages.opencensus-ext-azure,350256839,350256846,350256822
@@ -1025,6 +1034,7 @@ python313Packages.opentelemetry-instrumentation-botocore,350256957,350256948,350
 python313Packages.opentelemetry-instrumentation-system-metrics,,,350256992
 python313Packages.optiland,,350461917,350461916
 python313Packages.opytimark,350257129,,
+python313Packages.oslo-db,,,351564585
 python313Packages.osmnx,350325854,,350257205
 python313Packages.otcextensions,351564589,351564590,351564591
 python313Packages.ouman-eh-800-api,350257221,350257224,350257211
@@ -1098,7 +1108,6 @@ python313Packages.recline,350261331,350261371,350261356
 python313Packages.recordlinkage,350261380,,350261372
 python313Packages.repoze-who,349551131,349551129,349551130
 python313Packages.requests-unixsocket2,,350261508,
-python313Packages.reuse,,,351564782
 python313Packages.rmrl,350261665,350261676,350261673
 python313Packages.robotframework-assertion-engine,350261858,350261695,350261697
 python313Packages.s3torchconnectorclient,350462140,350462132,
@@ -1176,6 +1185,7 @@ python314Packages.aioimaplib,,351366587,
 python314Packages.aiosonic,,,350268192
 python314Packages.aiovban-pyaudio,350268247,350268224,350268248
 python314Packages.anki-mac-helper,,,350936493
+python314Packages.ansible-runner,,,351564971
 python314Packages.arelle-headless,350456412,350456414,350456418
 python314Packages.arelle,350456415,350456413,350456417
 python314Packages.ariadne,,,350269376
@@ -1297,10 +1307,11 @@ python314Packages.mlt,,,350278368
 python314Packages.mlx,,,350798975
 python314Packages.mmcv,351565432,,351565444
 python314Packages.motmetrics,350278531,350278492,350278515
-python314Packages.mpv,,,351525246
+python314Packages.mpv,,,351588726
 python314Packages.mrsqm,350278580,,350278560
 python314Packages.mygpoclient,,349575271,
 python314Packages.nanomsg-python,349576417,349576421,349576420
+python314Packages.nats-py,,351565463,
 python314Packages.neoteroi-mkdocs,,350280007,
 python314Packages.nexusformat,350279970,350279981,350280017
 python314Packages.nglview,351245623,351245618,351245611
@@ -1391,7 +1402,6 @@ python314Packages.recline,350285056,350285021,350285059
 python314Packages.recordlinkage,350285063,,350285049
 python314Packages.repoze-who,349584654,349584655,349584651
 python314Packages.rerun-sdk,,350463216,
-python314Packages.reuse,,,351565733
 python314Packages.rmrl,350285356,350285346,350285391
 python314Packages.robotframework-assertion-engine,350285378,350285427,350285376
 python314Packages.s3torchconnectorclient,350463243,350463247,
@@ -1483,6 +1493,7 @@ radicle-artifact,,350553603,
 rarezip,,,349594474
 rauthy,,,351093232
 raylib-games,,,350456542
+rclip,,,351565913
 rdpgw,,,350292499
 reindeer,,,350292789
 remarkable-toolchain,349595088,,
@@ -1490,7 +1501,6 @@ remarkable2-toolchain,349595089,,
 reproxy,,351245840,
 retdec,349595317,,
 rethinkdb,349595322,349595326,
-reuse,,,351565959
 rexi,350293038,350293053,350293050
 rfc-bibtex,350293048,350293033,350293044
 rhvoice,,,350472375
@@ -1502,7 +1512,7 @@ roc,350799179,,
 rojo,,350317369,
 routino,,,349596578
 rp,,349596507,
-rstudio,,,351565988
+rstudio,,,351588782
 rtl_wmbus,,,349596749
 s3fs,,,349602292
 sail-riscv,,,349602427
@@ -1562,7 +1572,7 @@ sums,,350300996,
 swc,350301266,350301265,
 swiftshader,349608571,349608569,
 swipeaerospace,,,350339488
-switchfin,,,351525456
+switchfin,,,351588805
 syncthingtray-minimal,,,351245906
 syzkaller,,,350301549
 task-master-ai,350301756,350301747,
